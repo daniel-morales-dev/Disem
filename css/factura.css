@@ -1,0 +1,85 @@
+body {
+	background-color: #A9A9A9;
+	font-family: sans-serif;
+
+}
+#contenido{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2 {
+	color: rgba(0,0,0,0.5);
+
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-family: 'Russo One', sans-serif; 
+}
+
+nav ul li{
+
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	color: black;
+	cursor: pointer;
+	padding: 5px;
+
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+
+nav ul li:hover{
+	background-color: #008B8B;
+	color: #FFF;
+	border-radius: 5px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+header hgroup h1{
+	border-bottom: solid;
+	padding-bottom: 30px;
+	border-width: 1px;
+	border-color: #000000;
+	text-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+}
+
+#textopr{
+	width: 975px;
+	height: 840px;
+	background-color: #008B8B;
+	color: #000000;
+	margin: 0 auto;
+	text-align: justify;
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+a{
+	color: #000000;
+	font-weight: bold;
+}
+
+#micanvas{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+
+img[src="imagenes/logo.png"]{
+	position: absolute;
+	left:340px;
+	top: 3px;
+}
+
